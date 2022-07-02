@@ -115,3 +115,27 @@ body {
     max-width: 250px;
     text-align: center;
 }
+
+.third-content {
+    align-items: center;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.third-content .quote-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 1000px;
+}
+
+.third-content .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
