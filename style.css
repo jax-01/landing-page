@@ -12,13 +12,21 @@ body {
     align-items: center;
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header>.left-items {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
+}
+
+.left-items {
+    padding-left: 50px;
+}
+
+.right-items {
+    padding-right: 50px;
 }
 
 .header ul {
