@@ -45,6 +45,12 @@ body {
     text-decoration: none;
 }
 
+.header a:hover {
+    text-decoration: underline;
+    text-decoration-color: #3882F6;
+    text-decoration-thickness: 5px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
